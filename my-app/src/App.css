@@ -1,0 +1,8 @@
+body {
+    background-color: darkblue;
+  }
+  
+  div:focus {
+    outline: none !important;
+  }
+  

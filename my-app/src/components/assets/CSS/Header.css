@@ -1,0 +1,22 @@
+header {
+  height: 70px;
+  border: 1px solid;
+  border-radius: 5%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;;
+  align-content: center;
+  background-color: rgb(170, 146, 11);
+
+}
+.title {
+  font-size: 25px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+.reset {
+  position: absolute;
+  left: 12px;
+  top: 58px;
+}
