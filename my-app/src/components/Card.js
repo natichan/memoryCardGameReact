@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import './assets/CSS/Card.css';
 import FlipCard from 'react-flipcard';
 
+const sx = {visibility: 'hidden'}
+
 class Card extends Component{
     render() {
         return (
@@ -10,11 +12,21 @@ class Card extends Component{
                 flipped = {this.props.isBeingCompared || this.props.guessed}
                 // si está siendo comparada o si ya adivino quede volteada
                 disabled = {true} //para que no se de vuelta cada vez que pasamos por la carta
-            >              
-                <div className="cover" {...this.props.guessed === true === {visibility: hidden}} ></div>
-                <div className="frontCard" {...this.props.guessed === true === {visibility: hidden}}>
+            >   
+            {this.props.guessed ?
+                <div className="cover" style={{visibility: 'hidden'}}></div>
+                :
+                <div className="cover" ></div>
+                }
+             {this.props.guessed ?
+                <div className="frontCard" style={{visibility: 'hidden'}}>
                     <img src={this.props.image} alt="" className="frontCard"/>
                </div>
+               :
+               <div className="frontCard">
+               <img src={this.props.image} alt="" className="frontCard"/>
+          </div>
+             }
             </FlipCard>
             </div>
         )
