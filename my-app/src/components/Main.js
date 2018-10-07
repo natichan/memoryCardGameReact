@@ -75,7 +75,8 @@ class Main extends Component {
     verifyWinner(deck) {
       if ( deck.filter((card) => !card.guessed).length === 0) //filtramos los elementos que quedan, si la carta fue adivinada la longitud del valor va a quedar en 0, porque ya fueron todas adivinadas
        {
-        alert(`Congratulations! You won!!!`)
+         return <div>Congratulations! You won!!!</div>
+       // alert(`Congratulations! You won!!!`)
       }
     }
 
