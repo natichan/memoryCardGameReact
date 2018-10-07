@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 import './assets/CSS/Card.css';
 import FlipCard from 'react-flipcard';
 
-const sx = {visibility: 'hidden'}
-
 class Card extends Component{
     render() {
         return (
