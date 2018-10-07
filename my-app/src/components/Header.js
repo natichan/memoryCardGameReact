@@ -5,10 +5,10 @@ class Header extends Component {
   render() {
     return (
       <header> 
-        <div className="title">Memory Card Game!!!</div>
+        <div className="title">Memory Card Game</div>
           <div>
             <button className="reset" onClick={this.props.resetGame}>
-              Reset
+              Start again!
             </button>
         </div>
         <div className="title">
