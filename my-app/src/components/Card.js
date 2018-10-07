@@ -11,8 +11,8 @@ class Card extends Component{
                 // si está siendo comparada o si ya adivino quede volteada
                 disabled = {true} //para que no se de vuelta cada vez que pasamos por la carta
             >              
-                <div className="cover" {...this.props.guessed.hidden} ></div>
-                <div className="frontCard">
+                <div className="cover" {...this.props.guessed === true === {visibility: hidden}} ></div>
+                <div className="frontCard" {...this.props.guessed === true === {visibility: hidden}}>
                     <img src={this.props.image} alt="" className="frontCard"/>
                </div>
             </FlipCard>
