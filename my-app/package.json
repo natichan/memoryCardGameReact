@@ -22,5 +22,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://github.com/natichan/memoryCardGameReact/my-app"
+  "homepage": "https://github.com/natichan/memoryCardGameReact"
 }
