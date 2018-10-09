@@ -23,25 +23,12 @@
     "eject": "react-scripts eject",
     "lint": "eslint"
   },
-  "homepage": "https://memorice-d9140.firebaseapp.com/",
   "devDependencies": {
     "eslint": "^5.6.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1"
-  },
-  "hosting": {
-    "headers": [
-      {
-        "source": "/service-worker.js",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache"
-          }
-        ]
-      }
-    ]
   }
+
 }
