@@ -6,3 +6,9 @@
   margin: 0 auto;
   margin-top: 4%;
 }
+@media (max-width: 700px) {
+  .board{
+    width: 270px;
+    height: 100px;
+  }
+}

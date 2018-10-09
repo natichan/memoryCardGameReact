@@ -1,12 +1,10 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './assets/CSS/Intro.css';
 
-class Intro extends Component{
-    render() {
-        return (
-            <div></div>
-        )
-    }
-}
+const Intro = () => {
+  return (
+    <div></div>
+  );
+};
 
 export default Intro;
