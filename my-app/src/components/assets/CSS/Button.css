@@ -1,0 +1,16 @@
+.reset {
+    left: 12px;
+    top: 58px;
+    background: none;
+    border: none;
+    color: #ffff;
+    font-size: 2rem;
+    
+}
+.reset:hover {
+    background: none;
+
+}
+.well{
+    background:  rgb(170, 11, 11);
+}

@@ -5,16 +5,11 @@ class Header extends React.PureComponent {
   render() {
     return (
       <header>
-        <div className="title">Memory Card Game</div>
-        <div>
-          <button type="button" className="reset" onClick={this.props.resetGame}>
-            Start again!
-          </button>
-        </div>
-        <div className="title">
-          Attempts:
+        <h1 className="title">Juego de Memoria</h1>
+        <h3 className="title">
+          Intentos:
           {this.props.attempts}
-        </div>
+        </h3>
       </header>
     );
   }

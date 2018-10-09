@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import Header from './Header';
+import ResetButton from './ButtonStart';
 import Board from './Board';
 import deckOfCards from './utils/DeckCards';
-import './assets/CSS/Main.css';
-
 
 const getInitialState = () => {
   const deck = deckOfCards();
@@ -78,7 +77,7 @@ class Main extends Component {
     // filtramos los elementos que quedan
     // si la carta fue adivinada la longitud del valor va a quedar en 0
     // porque ya fueron todas adivinadas
-    return alert('Congratulations! You won!!!');  
+    return alert('Felicitaciones, ganaste!!!');  
     }
   }
 
@@ -93,7 +92,6 @@ class Main extends Component {
       <div>
         <Header
           attempts={this.state.attempts}
-          resetGame={() => this.resetGame()}
         />
         <Board 
           // creamos una propiedad
@@ -105,6 +103,9 @@ class Main extends Component {
           // una referencia al método seleccionar carta
           // va a ser ejecutado cuando se haga click en la carta
           selectCard={card => this.selectCard(card)}
+        />
+        <ResetButton
+         resetGame={() => this.resetGame()}
         />
       </div>
     );
