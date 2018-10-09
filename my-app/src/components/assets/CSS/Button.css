@@ -1,25 +1,23 @@
 .reset {
     left: 12px;
     top: 58px;
-    background: none;
-    border: none;
+    background:  rgb(170, 11, 11);
     color: #ffff;
-    font-size: 2rem;   
+    font-size: 2rem;
+    margin-right: 5%;
 }
 .reset:hover {
     background: none;
 }
-.well{
-    background:  rgb(170, 11, 11);
+.btnReset{
+    text-align: center;
 }
+
 @media (max-width: 700px) {
     .reset{
         font-size: 1rem;
+        margin-top: 67vh !important;
+        height: 2.8em;
     }
-        .well{
-            height: 4em;
-            width: 20em;
-            margin-top: 70vh !important;
-        }
   }
   

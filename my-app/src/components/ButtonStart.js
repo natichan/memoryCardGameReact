@@ -2,15 +2,12 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import './assets/CSS/Button.css';
 
-const wellStyles = { maxWidth: 400, margin: '0 auto 10px' };
-
-
 class ButtonStart extends React.PureComponent {
   render() {
     return (
       <main>
-        <div className="well" style={wellStyles}>
-          <Button bsSize="large" type="button"  bsStyle="primary" className="reset" onClick={this.props.resetGame} block>
+        <div className="btnReset">
+          <Button bsSize="large" type="button"  bsStyle="primary" className="reset" onClick={this.props.resetGame}>
             REINICIAR PARTIDA
           </Button>
         </div>
