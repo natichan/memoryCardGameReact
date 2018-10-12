@@ -104,9 +104,11 @@ class Main extends Component {
           // va a ser ejecutado cuando se haga click en la carta
           selectCard={card => this.selectCard(card)}
         />
+        <footer>
         <ResetButton
          resetGame={() => this.resetGame()}
         />
+        </footer>
       </div>
     );
   }

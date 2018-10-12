@@ -4,7 +4,6 @@
     background:  rgb(170, 11, 11);
     color: #ffff;
     font-size: 2rem;
-    margin-right: 5%;
 }
 .reset:hover {
     background: none;
@@ -16,7 +15,6 @@
 @media (max-width: 700px) {
     .reset{
         font-size: 1rem;
-        margin-top: 67vh !important;
         height: 2.8em;
     }
   }
