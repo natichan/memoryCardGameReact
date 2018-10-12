@@ -8,7 +8,7 @@ Cuando encuentres todos los pares recuerda presionar "Reinicia Partida" para jug
 
 A divertirse!!!
 
-Para correr el juego sigue el siguiente enlace: [Memorice](https://memorycardgamereact-pmklubfvfo.now.sh/)
+Para correr el juego sigue el siguiente enlace: [Memorice](https://memorycardgamereact-yyjrcnstrk.now.sh/)
 
 
 ### Herramientas
