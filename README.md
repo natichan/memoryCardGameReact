@@ -17,6 +17,7 @@ Para correr el juego sigue el siguiente enlace: [Memorice](https://memorycardgam
 - NPM
 - React-Bootstrap
 - CSS
+- JSX
 
 ## Desarrollado para
 [Laboratoria](https://www.laboratoria.la/)
